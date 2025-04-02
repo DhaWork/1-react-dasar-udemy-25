@@ -62,7 +62,7 @@ function Header() {
     const style = {};
 
   return (
-    <header className="header footer">
+    <header className="header">
       <h1 style={style}>Fast React Pizza Co.</h1>
     </header>
   );
@@ -90,7 +90,7 @@ function Footer() {
     //     else alert("we're closed")
 
     return (
-        <footer className="footer"> {new Date().toLocaleTimeString()}
+        <footer cl> {new Date().toLocaleTimeString()}
             We're currently open
         </footer>
     )
@@ -100,7 +100,7 @@ function Pizza() {
   return (
     <div>
         <img src="pizzas/focaccia.jpg" alt="pizza spinaci" />
-      <h3>Pizza Spinaci</h3>
+      <h2>Pizza Spinaci</h2>
       <p>
         Tomato, mozarella, spinach, and ricotta cheese
       </p>
