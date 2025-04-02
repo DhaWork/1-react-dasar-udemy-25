@@ -58,11 +58,8 @@ function App() {
 function Pizza() {
   return (
     <div>
-        <img src="pizzas/focaccia.jpg" alt="pizza spinaci" />
-      <h2>Pizza Spinaci</h2>
-      <p>
-        Tomato, mozarella, spinach, and ricotta cheese
-      </p>
+      {" "}
+      <h2>hello Pizza</h2>{" "}
     </div>
   );
 }

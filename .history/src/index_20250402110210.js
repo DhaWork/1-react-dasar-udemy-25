@@ -47,25 +47,17 @@ const pizzaData = [
 ];
 
 function App() {
-  return (
-    <div>
-      <h1>hello world</h1>
-      <Pizza />
-    </div>
-  );
+    return (
+        <div>
+            <h1>hello world</h1>
+            <Pizza />
+        </div>
+    );
 }
 
 function Pizza() {
-  return (
-    <div>
-        <img src="pizzas/focaccia.jpg" alt="pizza spinaci" />
-      <h2>Pizza Spinaci</h2>
-      <p>
-        Tomato, mozarella, spinach, and ricotta cheese
-      </p>
-    </div>
-  );
+   return <div <h2>hello Pizza</h2>
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<App />);   
